@@ -45,6 +45,13 @@ img{
     padding-right:15px;
     margin:0 auto;
 }
+.research h2{
+    font-size:30px;
+    width:650px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:0 auto;
+}
 .copy-container h2{
     font-size:30px;
     width:650px;
@@ -52,7 +59,6 @@ img{
     padding-right:15px;
     margin: 0 auto;
 }
-
 .contents {
     height:200px;
     font-size:20px;
