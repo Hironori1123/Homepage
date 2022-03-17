@@ -52,6 +52,28 @@ img{
     padding-right:15px;
     margin:0 auto;
 }
+
+.teaching {
+    padding-top:150px;
+    padding-bottom:150px;
+    background-image:url("https://github.com/Hironori1123/Homepage/blob/main/Teaching.jpg?raw=true");
+    background-size:cover;
+}
+.teaching h1{
+    font-size:60px;
+    width:500px;
+    padding-left:250px;
+    padding-right:15px;
+    margin:0 auto;
+}
+.teaching h2{
+    font-size:30px;
+    width:650px;
+    padding-left:15px;
+    padding-right:15px;
+    margin:0 auto;
+}
+
 .copy-container h2{
     font-size:30px;
     width:650px;
