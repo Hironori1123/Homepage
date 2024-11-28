@@ -1,113 +1,129 @@
-/* General Reset */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Header Styling */
-.header {
-    background-color: #4a90e2; /* Cool blue background */
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    color: #ffffff;
-    box-sizing: border-box;
-}
-
-.header-logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.header-buttons {
-    display: flex;
-    gap: 15px; /* Space between buttons */
-}
-
-.btn {
-    background-color: #00796b;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #004d40;
-}
-
-/* Copy Container (Top Section) */
-body.home .copy-container {
-    padding: 150px 0;
-    background-image: url("https://raw.githubusercontent.com/Hironori1123/Homepage/main/Top_new.JPG");
-    background-size: cover;
-    background-position: center;
-    color: #003366; /* Dark blue text */
-    text-align: center;
-}
-
-body.home .copy-container h1 {
-    font-size: 60px;
-    color: #000000;
-}
-
-body.home .copy-container h2 {
-    font-size: 30px;
-    color: #004d40;
-}
-
-/* Main Content Styling */
-.contents {
-    padding: 20px;
-    max-width: 900px; /* Constrain content width */
-    margin: 0 auto; /* Center-align content */
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Space between image and text */
-    margin-top: 30px;
-}
-
-.profile img {
+img {
     height: 200px;
     width: 150px;
-    border-radius: 10px; /* Rounded corners for the image */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
-
-.profile p {
+.header {
+    background-color: #4a90e2; /* Cool blue for the header */
+    height: 70px;
+}
+.header-logo {
+    font-size: 20px;
+    float: left;
+    padding: 20px 40px;
+    color: #ffffff; /* White text for contrast */
+}
+.btn {
+    float: right;
     font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    text-align: justify;
+    padding: 8px 24px;
+    background-color: #6cb2eb; /* Light blue for buttons */
+    color: #fff; /* White text for buttons */
+    border: none;
+    border-radius: 5px;
 }
-
-/* Link Styling */
-.contents a {
-    color: #00796b;
-    text-decoration: none;
+.main {
+    background-color: #e0f7fa; /* Soft teal background */
 }
-
-.contents a:hover {
-    text-decoration: underline;
+.copy-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Top_new.JPG?raw=true");
+    background-size: cover;
+    color: #003366; /* Dark blue text for contrast */
 }
-
-/* Footer Styling */
-.footer {
-    background-color: #004d40;
-    color: #ffffff;
+.copy-container h1 {
+    font-size: 60px;
+    width: auto;
+    margin: 0 auto;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 0;
+    color: #00796b; /* Teal for main heading */
 }
-
-.footer-logo {
-    font-size: 14px;
+.copy-container h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 1.4;
+    color: #004d40; /* Dark green for subheading */
+}
+.research {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Research.jpeg?raw=true");
+    background-size: cover;
+}
+.research h1 {
+    font-size: 60px;
+    width: 500px;
+    padding-left: 250px;
+    padding-right: 15px;
+    margin: 0 auto;
+    color: #283593; /* Deep indigo for research section */
+}
+.research h2 {
+    font-size: 30px;
+    width: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    color: #1565c0; /* Blue for subheading in research */
+}
+.teaching {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Teaching.jpg?raw=true");
+    background-size: cover;
+}
+.teaching h1 {
+    font-size: 60px;
+    width: 500px;
+    padding-left: 250px;
+    padding-right: 15px;
+    margin: 0 auto;
+    color: #1e88e5; /* Bright blue for teaching heading */
+}
+.teaching h2 {
+    font-size: 30px;
+    width: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    color: #0277bd; /* Cool blue for teaching subheading */
+}
+.contents {
+    height: 200px;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #004d40; /* Dark green divider */
+    display: flex;
+    justify-content: space-evenly;
+    color: #004d40; /* Matching text with the divider */
+}
+.publications {
+    padding: 20px;
+    color: #1a237e; /* Indigo for publication section */
+}
+.publications p {
+    padding: 20px;  
+    font-size: 20px; 
+}
+.contents p {
+    width: 1150px;
+}
+.updates {
+    height: 150px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #1565c0; /* Blue for updates section */
+}
+.footer {
+    background-color: #004d40; /* Dark green for the footer */
+    color: #ffffff; /* White text for contrast */
+    height: 40px;
+    padding-right: 40px;
+}
+ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #283593; /* Indigo for list items */
 }
