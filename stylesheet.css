@@ -139,8 +139,15 @@ img {
     height: 40px;
     padding-right: 40px;
 }
+/* Style for the list container (unordered list) */
+ul {
+    font-size: 18px; /* Adjust the size as needed */
+    line-height: 1.8; /* Increase line spacing for better readability */
+    margin-top: 10px; /* Optional: Add spacing above the list */
+    margin-bottom: 20px; /* Optional: Add spacing below the list */
+}
+
+/* Optional: Additional styling for list items */
 ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #283593; /* Indigo for list items */
+    margin-bottom: 10px; /* Add spacing between list items */
 }
