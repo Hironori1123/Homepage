@@ -141,7 +141,7 @@ img {
 }
 /* Style for the list container (unordered list) */
 ul {
-    font-size: 30px; /* Adjust the size as needed */
+    font-size: 20px; /* Adjust the size as needed */
     line-height: 1.8; /* Increase line spacing for better readability */
     margin-top: 10px; /* Optional: Add spacing above the list */
     margin-bottom: 20px; /* Optional: Add spacing below the list */
