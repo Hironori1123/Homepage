@@ -10,6 +10,7 @@ img {
     align-items: center; /* Vertically center content */
     padding: 0 20px; /* Add padding on the sides */
     color: #ffffff; /* White text for logo */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
 }
 
 .header-logo {
@@ -20,7 +21,8 @@ img {
 .header-buttons {
     display: flex; /* Align buttons horizontally */
     gap: 15px; /* Add spacing between buttons */
-    margin-right: 10px; /* Add space from the right edge */
+    margin-right: 0; /* Ensure there is no extra space pushing the buttons */
+    justify-content: flex-end; /* Align buttons to the right within their container */
 }
 
 .btn {
