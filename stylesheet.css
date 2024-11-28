@@ -21,8 +21,7 @@ img {
 .header-buttons {
     display: flex; /* Align buttons horizontally */
     gap: 15px; /* Add spacing between buttons */
-    margin-right: 0; /* Ensure there is no extra space pushing the buttons */
-    justify-content: flex-end; /* Align buttons to the right within their container */
+    justify-content: flex-end; /* Align buttons to the right */
 }
 
 .btn {
@@ -38,53 +37,41 @@ img {
 .btn:hover {
     background-color: #004d40; /* Darker teal on hover */
 }
-.main {
-    background-color: #e0f7fa; /* Soft teal background */
-}
 
-/* Section Titles (e.g., Research Interests, Publications) */
-.section-title {
-    font-size: 28px;
-    font-weight: bold;
-    color: #00796b; /* Teal color */
+body.home .copy-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("https://raw.githubusercontent.com/Hironori1123/Homepage/main/Top_new.JPG");
+    background-size: cover;
+    color: #003366; /* Dark blue text for contrast */
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #00796b; /* Underline effect */
-    padding-bottom: 10px;
 }
 
-/* Subsection Titles (e.g., Manuscripts, Books, etc.) */
-.publications h3 {
-    font-size: 24px; /* Slightly smaller than section title */
-    font-weight: bold;
-    color: #1a237e; /* Indigo for differentiation */
-    margin-top: 30px;
-    margin-bottom: 15px;
-    border-left: 4px solid #1a237e; /* Vertical bar for style */
-    padding-left: 10px; /* Space between bar and text */
+body.home .copy-container h1 {
+    font-size: 60px;
+    color: #000000; /* Black heading */
 }
 
-/* Paragraph Styling */
-.publications p {
-    font-size: 16px;
-    line-height: 1.6;
+body.home .copy-container h2 {
+    font-size: 30px;
+    color: #004d40; /* Dark green for subheading */
+}
+
+.contents {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6; /* Better readability */
+    text-align: justify; /* Professional paragraph alignment */
+    max-width: 800px; /* Limit paragraph width */
+    margin: 0 auto; /* Center-align content */
     color: #333; /* Dark gray for text */
-    text-align: justify;
-    max-width: 800px; /* Limit width for better readability */
-    margin: 0 auto; /* Center-align */
-    padding-bottom: 20px; /* Add space after each paragraph */
 }
 
-.footer {
-    background-color: #004d40; /* Dark green for the footer */
-    color: #ffffff; /* White text for contrast */
-    height: 40px;
-    padding-right: 40px;
+.contents a {
+    color: #00796b; /* Teal for links */
+    text-decoration: none;
 }
 
-ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #283593; /* Indigo for list items */
+.contents a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
