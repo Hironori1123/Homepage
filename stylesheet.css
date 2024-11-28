@@ -20,6 +20,7 @@ img {
 .header-buttons {
     display: flex; /* Align buttons horizontally */
     gap: 15px; /* Add spacing between buttons */
+    margin-right: 10px; /* Add space from the right edge */
 }
 
 .btn {
