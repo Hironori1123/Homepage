@@ -25,15 +25,18 @@ img{
     background-image:url("https://github.com/Hironori1123/Homepage/blob/main/Top_new.JPG?raw=true");
     background-size:cover;
 }
-.copy-container h1{
-    font-size:60px;
-    width:500px;
-    padding-left:15px;
-    padding-right:15px;
-    margin: 0 auto;
+.copy-container h1 {
+    font-size: 60px;
+    width: auto; /* Allow the text to take only as much space as it needs */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center the text inside the element */
+    padding: 0; /* Remove unnecessary padding */
 }
-.copy-container h2{
-    text-align: center;
+.copy-container h2 {
+    text-align: center; /* Center the text */
+    font-size: 30px; /* Optional: Adjust font size if needed */
+    margin-top: 10px; /* Add spacing above if needed */
+    line-height: 1.4; /* Optional: Adjust line spacing for readability */
 }
 .research {
     padding-top:150px;
