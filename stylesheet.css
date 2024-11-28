@@ -12,14 +12,23 @@ img {
     padding: 20px 40px;
     color: #ffffff; /* White text for contrast */
 }
+.button-container {
+    text-align: center; /* Centers the buttons */
+    margin-top: 20px; /* Adds spacing above the buttons */
+}
 .btn {
-    float: right;
-    font-size: 18px;
-    padding: 8px 24px;
-    background-color: #6cb2eb; /* Light blue for buttons */
-    color: #fff; /* White text for buttons */
-    border: none;
-    border-radius: 5px;
+    display: inline-block; /* Makes the buttons inline and block-like */
+    background-color: #00796b; /* Teal background for cool appearance */
+    color: #ffffff; /* White text for contrast */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 18px; /* Adjust font size */
+    padding: 10px 20px; /* Adds padding for better button size */
+    border-radius: 5px; /* Rounds the button corners */
+    margin: 0 10px; /* Adds spacing between buttons */
+    transition: background-color 0.3s; /* Adds a hover transition effect */
+}
+.btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
 }
 .main {
     background-color: #e0f7fa; /* Soft teal background */
