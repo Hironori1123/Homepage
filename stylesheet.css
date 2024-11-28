@@ -3,30 +3,35 @@ img {
     width: 150px;
 }
 .header {
-    background-color: #4a90e2; /* Cool blue for the header */
+    background-color: #4a90e2; /* Cool blue background */
     height: 70px;
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space out logo and buttons */
+    align-items: center; /* Vertically center content */
+    padding: 0 20px; /* Add padding on the sides */
+    color: #ffffff; /* White text for logo */
 }
+
 .header-logo {
     font-size: 20px;
-    float: left;
-    padding: 20px 40px;
-    color: #ffffff; /* White text for contrast */
+    font-weight: bold;
 }
-.button-container {
-    text-align: center; /* Centers the buttons */
-    margin-top: 20px; /* Adds spacing above the buttons */
+
+.header-buttons {
+    display: flex; /* Align buttons horizontally */
+    gap: 15px; /* Add spacing between buttons */
 }
+
 .btn {
-    display: inline-block; /* Makes the buttons inline and block-like */
-    background-color: #00796b; /* Teal background for cool appearance */
+    background-color: #00796b; /* Teal background for buttons */
     color: #ffffff; /* White text for contrast */
-    text-decoration: none; /* Removes underline from links */
-    font-size: 18px; /* Adjust font size */
-    padding: 10px 20px; /* Adds padding for better button size */
-    border-radius: 5px; /* Rounds the button corners */
-    margin: 0 10px; /* Adds spacing between buttons */
-    transition: background-color 0.3s; /* Adds a hover transition effect */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Adjust font size */
+    padding: 8px 16px; /* Add padding for button size */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
 }
+
 .btn:hover {
     background-color: #004d40; /* Darker teal on hover */
 }
