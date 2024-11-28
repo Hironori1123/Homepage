@@ -41,104 +41,53 @@ img {
 .main {
     background-color: #e0f7fa; /* Soft teal background */
 }
-.copy-container {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Top_new.JPG?raw=true");
-    background-size: cover;
-    color: #003366; /* Dark blue text for contrast */
+
+/* Remove large font for "Research" and style section titles */
+.section-title {
+    font-size: 28px; /* Modern, clean font size */
+    font-weight: bold; /* Bold for emphasis */
+    color: #00796b; /* Cool teal color for titles */
+    text-align: center; /* Center-align the titles */
+    margin-top: 40px; /* Add spacing above the title */
+    margin-bottom: 20px; /* Add spacing below the title */
+    border-bottom: 2px solid #00796b; /* Add an underline for a clean look */
+    padding-bottom: 10px; /* Space between text and underline */
 }
-.copy-container h1 {
-    font-size: 60px;
-    width: auto;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-    color: #000000;
-}
-.copy-container h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
-    line-height: 1.4;
-    color: #004d40; /* Dark green for subheading */
-}
-.research {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Research.jpeg?raw=true");
-    background-size: cover;
-}
-.research h1 {
-    font-size: 60px;
-    width: 500px;
-    padding-left: 250px;
-    padding-right: 15px;
-    margin: 0 auto;
-    color: #283593; /* Deep indigo for research section */
-}
-.research h2 {
-    font-size: 30px;
-    width: 650px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    color: #1565c0; /* Blue for subheading in research */
-}
-.teaching {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-image: url("https://github.com/Hironori1123/Homepage/blob/main/Teaching.jpg?raw=true");
-    background-size: cover;
-}
-.teaching h1 {
-    font-size: 60px;
-    width: 500px;
-    padding-left: 250px;
-    padding-right: 15px;
-    margin: 0 auto;
-    color: #1e88e5; /* Bright blue for teaching heading */
-}
-.teaching h2 {
-    font-size: 30px;
-    width: 650px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    color: #0277bd; /* Cool blue for teaching subheading */
-}
-.contents {
-    height: 200px;
-    font-size: 20px;
-    padding: 20px;
-    border-bottom: 2px solid #004d40; /* Dark green divider */
-    display: flex;
-    justify-content: space-evenly;
-    color: #004d40; /* Matching text with the divider */
-}
+
 .publications {
     padding: 20px;
     color: #1a237e; /* Indigo for publication section */
 }
+
 .publications p {
-    padding: 20px;  
-    font-size: 20px; 
+    padding: 20px;
+    font-size: 16px; /* Comfortable font size */
+    line-height: 1.6; /* Line spacing for readability */
+    color: #333; /* Dark gray for text */
+    text-align: justify; /* Justify text for a professional look */
+    max-width: 800px; /* Limit paragraph width for easier reading */
+    margin: 0 auto; /* Center paragraphs */
 }
-.contents p {
-    width: 1150px;
+
+/* Styling for "Research Interests" and "Publications" */
+.publications h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00796b;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    border-left: 4px solid #00796b; /* Cool vertical bar for titles */
+    padding-left: 10px; /* Space between text and vertical bar */
 }
-.updates {
-    height: 150px;
-    padding-left: 20px;
-    font-size: 20px;
-    color: #1565c0; /* Blue for updates section */
-}
+
 .footer {
     background-color: #004d40; /* Dark green for the footer */
     color: #ffffff; /* White text for contrast */
     height: 40px;
     padding-right: 40px;
 }
+
 ul li {
     padding-top: 10px;
     padding-bottom: 10px;
