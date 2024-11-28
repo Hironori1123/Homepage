@@ -42,43 +42,38 @@ img {
     background-color: #e0f7fa; /* Soft teal background */
 }
 
-/* Remove large font for "Research" and style section titles */
+/* Section Titles (e.g., Research Interests, Publications) */
 .section-title {
-    font-size: 28px; /* Modern, clean font size */
-    font-weight: bold; /* Bold for emphasis */
-    color: #00796b; /* Cool teal color for titles */
-    text-align: center; /* Center-align the titles */
-    margin-top: 40px; /* Add spacing above the title */
-    margin-bottom: 20px; /* Add spacing below the title */
-    border-bottom: 2px solid #00796b; /* Add an underline for a clean look */
-    padding-bottom: 10px; /* Space between text and underline */
-}
-
-.publications {
-    padding: 20px;
-    color: #1a237e; /* Indigo for publication section */
-}
-
-.publications p {
-    padding: 20px;
-    font-size: 16px; /* Comfortable font size */
-    line-height: 1.6; /* Line spacing for readability */
-    color: #333; /* Dark gray for text */
-    text-align: justify; /* Justify text for a professional look */
-    max-width: 800px; /* Limit paragraph width for easier reading */
-    margin: 0 auto; /* Center paragraphs */
-}
-
-/* Styling for "Research Interests" and "Publications" */
-.publications h2 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    color: #00796b;
-    margin-top: 20px;
+    color: #00796b; /* Teal color */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00796b; /* Underline effect */
+    padding-bottom: 10px;
+}
+
+/* Subsection Titles (e.g., Manuscripts, Books, etc.) */
+.publications h3 {
+    font-size: 24px; /* Slightly smaller than section title */
+    font-weight: bold;
+    color: #1a237e; /* Indigo for differentiation */
+    margin-top: 30px;
     margin-bottom: 15px;
-    text-align: left;
-    border-left: 4px solid #00796b; /* Cool vertical bar for titles */
-    padding-left: 10px; /* Space between text and vertical bar */
+    border-left: 4px solid #1a237e; /* Vertical bar for style */
+    padding-left: 10px; /* Space between bar and text */
+}
+
+/* Paragraph Styling */
+.publications p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark gray for text */
+    text-align: justify;
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center-align */
+    padding-bottom: 20px; /* Add space after each paragraph */
 }
 
 .footer {
