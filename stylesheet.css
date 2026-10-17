@@ -140,3 +140,9 @@ h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; lette
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+/* Publications now live on the Research page. */
+.publications-heading { border-top: 1px solid var(--border); padding: 70px 0 42px; scroll-margin-top: 18px; }
+.publications-heading h2 { font-size: clamp(38px, 4.5vw, 52px); line-height: 1.2; margin: 0 0 15px; }
+.publications-heading > p:last-child { color: var(--text); font-size: 15px; margin: 0; }
+@media (max-width: 640px) { .publications-heading { padding: 44px 0 28px; } }
